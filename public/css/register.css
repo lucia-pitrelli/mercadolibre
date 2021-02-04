@@ -1,0 +1,72 @@
+.form-menu {
+  width: 70%;
+  height: auto;
+  font-size: 12px;
+  margin: auto;
+  box-shadow: 0 9px 50px hsla(46, 81%, 60%, 0.31);
+  padding: 2%;
+  position: relative;
+  padding-top: 60px;
+}
+
+p {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  font-size: 0px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.form-input {
+  padding: 4px;
+  border-radius: 5%;
+  border: #fba90a 2px solid;
+  display: block;
+  width: 80%;
+  margin-left: 90px;
+  margin-right: 50px;
+  border-radius: 15%;
+}
+
+#perfil {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 14px;
+}
+
+.interes {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.interes li {
+  list-style-type: none;
+}
+.form-label {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 16px;
+}
+
+.borrar button {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  border: #fba90a 1px solid;
+  padding: 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}

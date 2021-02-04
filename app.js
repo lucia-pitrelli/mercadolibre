@@ -5,11 +5,19 @@ const app = express();
 
 app.listen(3000);
 
-const staticFolder = path.resolve(__dirname, "./public")
+//middlewares -static folder define las carpetas que va a leer (imagenes, css, js, videos)
+const staticFolder = path.resolve(__dirname, "./public");
 app.use(express.static(staticFolder));
 
-app.get("/", (req, res) =>{
-    res.sendFile(path.resolve(__dirname, "./views/home.html"));
+//rutas
+app.get("/", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "./views/home.html"));
 });
 
+app.get("/register", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "./views/register.html"));
+});
 
+app.get("/logIn", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "./views/logIn.html"));
+});

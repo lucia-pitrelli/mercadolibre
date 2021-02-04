@@ -1,0 +1,52 @@
+#page-header {
+  background-color: #eac926;
+  padding: 16px;
+  width: 100%;
+  display: block;
+}
+
+#logo img {
+  width: 50%;
+}
+
+.buscador {
+  width: 50%;
+}
+
+#texto {
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  /*display: none;*/
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  /*display: none;*/
+}
+
+#menu {
+  text-align: center;
+}
+
+#menu-button {
+  text-align: center;
+  background-color: #1259c3;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.img-banner {
+  width: 100%;
+  display: block;
+  padding: 0px;
+  margin-bottom: 10px;
+}
