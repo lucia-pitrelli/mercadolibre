@@ -16,7 +16,17 @@ footer {
   margin-top: 10px;
 }
 
-.footer-main {
-  display: flex;
-  justify-content: space-around;
+@media (min-width: 768px) {
+  .footer-main {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer-main {
+    display: flex;
+    justify-content: space-around;
+  }
 }

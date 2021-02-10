@@ -24,24 +24,25 @@
 
   <body>
     <header id="page-header">
+      <div id="top-header">
       <div id="logo">
-       <a href="/">
       <img
           src="/img/logo-mercado-liebre.svg"
-          width="240"
-          height="70"
           alt="logo de mercadoliebre"
-        /></a> 
+        />
       </div>
-      <div class="buscador">
+      <div class="search-form">
+        <div class="search-box">
         <input type="text" placeholder="Buscar productos y marcas" />
         <button><i class="fas fa-search"></i></button>
       </div>
-      <p id="texto">
+      </div>
+      <p>
         <i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de
         crédito
       </p>
-      <nav>
+      </div>
+      <nav id="barra">
         <ul class="nav">
           <li><a href="#">Ofertas</a></li>
           <li><a href="#">Tiendas Oficiales</a></li>
@@ -55,7 +56,7 @@
             </a>
           </li>
           <li>
-            <a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i> </a>
+            <a href="/logIn">Ingresá <i class="fas fa-sign-in-alt"></i> </a>
           </li>
           <li>
             <a href="#">Mis compras <i class="fas fa-shopping-basket"></i> </a>
@@ -69,27 +70,28 @@
       </div>
     </header>
     <main>
-      <form action="/" method="GET" class="form-menu">
-        
-        <h2>Creá tu cuenta</h2>
 
-        <div class="form-item">
-          <label class="form-label" for="name">Nombre y Apellido</label>
-          <input type="text" required class="form-input" />
+      <form action="/" method="GET" class="form-menu">
+        <h2>Creá tu cuenta</h2>
+        <p class="register-text">¿Ya tenés un cuenta?</p>
+        <p class="register-text"><a href="/logIn" class="log">ingresá</a></p>
+        <div>
+          <label class="form-label" for="nombre">Nombre y Apellido</label>
+          <input type="text" required class="form-input"/>
         </div>
-        <div class="form-item">
+        <div>
           <label for="name" class="form-label">Nomdre de Usuario</label>
           <input type="text" required class="form-input" />
         </div>
-        <div class="form-item">
+        <div>
           <label for="name" class="form-label">Fecha de nacimiento</label>
           <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
         </div>
-        <div class="form-item">
+        <div>
           <label for="name" class="form-label">Domicilio</label>
           <input type="text" required class="form-input" />
         </div>
-        <div class="form-item">
+        <div>
           <label for="email" class="form-label">E-mail</label>
           <input
             type="email"
@@ -99,41 +101,37 @@
             class="form-input"
           />
         </div>
-               <label class="perfil">Perfil del usuario</label>
-        <select name= "perfil" id="perfil">
+          <label class="perfil">Perfil del usuario</label>
+          <select name= "perfil" id="perfil">
           <option value="compra">Compra</option>
           <option value="venta">Venta</option>
-        </select>
+          </select>
         <div class="interes">
         <p>¿Cuales de estas categorias son de tu interes?</p>
-        <ul>
-            
+        <ul>      
         <li>
-<input type="checkbox" name="electro" value="Electro">
-<label for="Electro">Electro</label>
+          <input type="checkbox" name="electro" value="Electro">
+          <label for="Electro">Electro</label>
         </li>
         <li>
-<input type="checkbox" name="moda" value=" Moda">
-            <label for="Moda">Moda</label>
+          <input type="checkbox" name="moda" value=" Moda">
+          <label for="Moda">Moda</label>
         </li>
         <li>
-<input type="checkbox" name="hogar" value=" Hogar">
- <label for="Hogar">Hogar</label>
+          <input type="checkbox" name="hogar" value=" Hogar">
+          <label for="Hogar">Hogar</label>
         </li>
-        
         <li>
-<input type="checkbox" name="jugueteria" value=" Jugueteria">
-<label for="Jugueteria">Jugueteria</label>
-        </li>
-        
+          <input type="checkbox" name="jugueteria" value=" Jugueteria">
+          <label for="Jugueteria">Jugueteria</label>
+        </li>   
         <li>
-<input type="checkbox" name="vida-sana" value=" Vida sana">
-            <label for="Vida-sana">Vida sana</label>
+          <input type="checkbox" name="vida-sana" value=" Vida sana">
+          <label for="Vida-sana">Vida sana</label>
         </li>
         </ul>
-        </div>
-
-        <div class="form-item">
+      </div>
+        <div>
           <label for="password" class="form-label">Contraseña</label>
           <input
             type="password"
@@ -143,7 +141,7 @@
             class="form-input"
           />
         </div>
-        <div class="form-item">
+        <div>
           <label for="repeat password" class="form-label"
             >Confirmar contraseña</label
           >
@@ -162,9 +160,8 @@
             Confirmar datos
           </button>
         </div>
-
-        </div>
-        <p class="register-text"><a href="#">Volvé a la página principal</a></p>
+      </div>
+        <p class="register-text"><a href="/">Volvé a la página principal</a></p>
       </form>
     </main>
   <footer>
@@ -172,27 +169,25 @@
       <article class="article-footer">
         <div class="icon-footer">
           <i class="fas fa-credit-card"></i>
-        </div>
-        
+        </div> 
         <h3>Pagá con tarjeta o en efectivo</h3>
         <p>
           Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
           efectivo en puntos de pago. ¡Y siempre es seguro!
         </p>
       </article>
-<article class="article-footer">
-        <div class="article-footer">
+      <article class="article-footer">
+        <div class="icon-footer">
         <i class="fas fa-gift"></i>
-      </div>
+        </div>
         <h3>Envío gratis desde $ 2.500</h3>
         <p>
           Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
           miles de productos. Es un beneficio de Mercado Puntos.
         </p>
-</article>
-
-<article class="article-footer">
-      <div class="article-footer">
+      </article>
+      <article class="article-footer">
+        <div class="icon-footer">
         <i class="fas fa-user-shield"></i>
         </div>
         <h3>Seguridad, de principio a fin</h3>

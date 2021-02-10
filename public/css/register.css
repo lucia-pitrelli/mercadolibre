@@ -1,9 +1,9 @@
 .form-menu {
-  width: 70%;
+  width: 60%;
   height: auto;
   font-size: 12px;
   margin: auto;
-  box-shadow: 0 9px 50px hsla(46, 81%, 60%, 0.31);
+  box-shadow: 0 9px 50px #fba90a;
   padding: 2%;
   position: relative;
   padding-top: 60px;
@@ -13,7 +13,6 @@ p {
   font-size: 12px;
   font-family: "Roboto", sans-serif;
   color: black;
-  text-align: center;
 }
 
 h2 {
@@ -21,18 +20,16 @@ h2 {
   font-family: "Roboto", sans-serif;
   color: black;
   text-align: center;
-  margin-top: 40px;
 }
 
 .form-input {
+  text-align: left;
   padding: 4px;
-  border-radius: 5%;
   border: #fba90a 2px solid;
   display: block;
-  width: 80%;
-  margin-left: 90px;
-  margin-right: 50px;
-  border-radius: 15%;
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #perfil {
@@ -48,6 +45,7 @@ h2 {
   line-height: 50px;
   text-align: center;
   padding: 10px;
+  line-height: 3em;
 }
 
 .interes li {
@@ -56,7 +54,7 @@ h2 {
 .form-label {
   font-family: "Roboto", sans-serif;
   color: black;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .borrar button {
@@ -69,4 +67,20 @@ h2 {
   margin-bottom: 15px;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+@media (min-width: 768px) {
+  .form-input {
+    width: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form-input {
+    width: 80%;
+    margin-left: 90px;
+    margin-right: 50px;
+  }
 }

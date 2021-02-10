@@ -23,11 +23,10 @@ h2 {
 
 .user {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   background-color: gold;
-  /* border-radius: 50%;*/
   color: grey;
-  padding: 10px;
+  padding: 8px;
   width: 100%;
   margin-left: 5px;
   margin-right: 75px;
@@ -59,6 +58,10 @@ h2 {
   text-align: center;
 }
 
+.log-item i {
+  display: none;
+}
+
 .btn-container {
   text-align: center;
 }
@@ -83,7 +86,7 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   width: 85%;
-  margin-left: 80px;
+  margin-left: 30px;
   font-weight: bold;
   color: #fba90a;
   display: none;
@@ -93,4 +96,32 @@ h2 {
   border: #fba90a 1px solid;
   padding: 8px;
   margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .user {
+    padding: 10px;
+    font-size: 30px;
+  }
+
+  .log-item i {
+    display: initial;
+  }
+  .error-box {
+    margin-left: 65px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .user {
+    padding: 10px;
+    font-size: 30px;
+  }
+  .log-item i {
+    display: initial;
+  }
+
+  .error-box {
+    margin-left: 80px;
+  }
 }

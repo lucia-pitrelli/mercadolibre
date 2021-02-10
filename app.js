@@ -3,13 +3,13 @@ const path = require("path");
 
 const app = express();
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000, function () {
+  console.log("servidor corriendo en el puerto 3000");
+});
 
-//middlewares -static folder define las carpetas que va a leer (imagenes, css, js, videos)
 const staticFolder = path.resolve(__dirname, "./public");
 app.use(express.static(staticFolder));
 
-//rutas
 app.get("/", (req, res) => {
   res.sendFile(path.resolve(__dirname, "./views/home.html"));
 });

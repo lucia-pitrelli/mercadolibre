@@ -3,24 +3,20 @@
   <head>
     <meta charset="UTF-8" />
 
-    <!--Adapta el sitio a múltiples dispositivos-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bienvenidos a MercadoLiebre</title>
 
-    <!--provee fuente roboto con el tamaño de la letra-->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
 
-    <!--provee iconos-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
     />
 
-    <!--me vincula styles.css con html -->
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/footer.css" />
     <link rel="stylesheet" href="/css/header.css" />
@@ -28,23 +24,25 @@
 
   <body>
     <header id="page-header">
+      <div id="top-header">
       <div id="logo">
       <img
           src="/img/logo-mercado-liebre.svg"
-          width="240"
-          height="70"
           alt="logo de mercadoliebre"
         />
       </div>
-      <div class="buscador">
+      <div class="search-form">
+        <div class="search-box">
         <input type="text" placeholder="Buscar productos y marcas" />
         <button><i class="fas fa-search"></i></button>
       </div>
-      <p id="texto">
+      </div>
+      <p>
         <i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de
         crédito
       </p>
-      <nav>
+      </div>
+      <nav id="barra">
         <ul class="nav">
           <li><a href="#">Ofertas</a></li>
           <li><a href="#">Tiendas Oficiales</a></li>
@@ -83,8 +81,8 @@
     <main>
       <section class="product-section">
         <h3>Basado en tu última visita</h3>
-      <div class="lista-productos">
-                <article class="product">
+        <div class="lista-productos">
+          <article class="product">
           <div class="product-background">
             <img
               src="/img/img-cafetera-moulinex.jpg"
@@ -271,8 +269,8 @@
           efectivo en puntos de pago. ¡Y siempre es seguro!
         </p>
       </article>
-<article class="article-footer">
-        <div class="article-footer">
+      <article class="article-footer">
+        <div class="icon-footer">
         <i class="fas fa-gift"></i>
       </div>
         <h3>Envío gratis desde $ 2.500</h3>
@@ -280,10 +278,10 @@
           Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
           miles de productos. Es un beneficio de Mercado Puntos.
         </p>
-</article>
+      </article>
 
-<article class="article-footer">
-      <div class="article-footer">
+     <article class="article-footer">
+      <div class="icon-footer">
         <i class="fas fa-user-shield"></i>
         </div>
         <h3>Seguridad, de principio a fin</h3>

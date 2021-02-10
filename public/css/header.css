@@ -1,26 +1,35 @@
 #page-header {
   background-color: #eac926;
   padding: 16px;
-  width: 100%;
-  display: block;
+  /*width: 100%;*/
+  /*display: block;*/
 }
 
 #logo img {
   width: 50%;
-}
-
-.buscador {
-  width: 50%;
-}
-
-#texto {
-  text-align: center;
   padding: 10px;
+}
+
+#page-header #top-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#page-header #top-header .search-form {
+  flex-grow: 1;
+}
+
+#page-header #top-header p {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
 }
 
 nav ul {
   list-style-type: none;
-  /*display: none;*/
+  display: none;
 }
 
 nav a {
@@ -28,11 +37,12 @@ nav a {
   color: black;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
-  /*display: none;*/
+  display: none;
 }
 
 #menu {
   text-align: center;
+  padding: 10px;
 }
 
 #menu-button {
@@ -49,4 +59,39 @@ nav a {
   display: block;
   padding: 0px;
   margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  nav ul {
+    display: initial;
+  }
+  nav a {
+    display: initial;
+  }
+  #logo img {
+    width: 70%;
+  }
+  #page-header #top-header p {
+    width: 97%;
+    text-align: right;
+    z-index: 3;
+    position: absolute;
+  }
+  #page-header #barra {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #logo img {
+    width: 100%;
+  }
+  #page-header #top-header p {
+    width: 70%;
+    text-align: right;
+    z-index: 3;
+    position: absolute;
+  }
 }
