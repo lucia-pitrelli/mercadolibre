@@ -6,7 +6,7 @@
 }
 
 #logo img {
-  width: 50%;
+  width: 100%;
   padding: 10px;
 }
 
@@ -27,11 +27,10 @@
   font-family: "Roboto", sans-serif;
 }
 
-/*.main-nav {
+.div-header {
   display: flex;
-  margin: 20px;
-  text-align: center;
-}*/
+  align-items: center;
+}
 
 li {
   margin-left: 10px;
@@ -83,7 +82,7 @@ nav a {
     width: 70%;
   }
   #page-header #top-header p {
-    width: 97%;
+    width: 99%;
     text-align: right;
     z-index: 3;
     position: absolute;
@@ -95,6 +94,9 @@ nav a {
   }
   #menu-button {
     display: none;
+  }
+  #top-header {
+    width: 70%;
   }
 }
 
