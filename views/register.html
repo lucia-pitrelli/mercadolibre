@@ -70,12 +70,13 @@
       </div>
     </header>
     <main>
-
-      <form action="/" method="GET" class="form-menu">
+      <section>
         <h2>Creá tu cuenta</h2>
         <p class="register-text">¿Ya tenés un cuenta?</p>
         <p class="register-text"><a href="/logIn" class="log">ingresá</a></p>
         <div>
+     </section>
+      <form action="/" method="GET" class="form-menu">
           <label class="form-label" for="nombre">Nombre y Apellido</label>
           <input type="text" required class="form-input"/>
         </div>
@@ -101,11 +102,13 @@
             class="form-input"
           />
         </div>
+        <div class="usuario">
           <label class="perfil">Perfil del usuario</label>
           <select name= "perfil" id="perfil">
           <option value="compra">Compra</option>
           <option value="venta">Venta</option>
           </select>
+        </div> 
         <div class="interes">
         <p>¿Cuales de estas categorias son de tu interes?</p>
         <ul>      

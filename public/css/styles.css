@@ -6,11 +6,11 @@ Gris oscuro: #666;
 Gris claro: #ebebeb;
 Verde: #39b54a;}*/
 
-/** {
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-}*/
+}
 
 .body {
   margin: 0;
@@ -56,11 +56,6 @@ article {
 .article-container {
   border-top: solid 1px #ebebeb;
 }
-
-/*.product-section .lista-productos {
-  display: flex;
-  flex-wrap: wrap;
-}*/
 
 .lista-productos {
   display: flex;

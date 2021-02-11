@@ -1,8 +1,8 @@
 #page-header {
   background-color: #eac926;
   padding: 16px;
-  /*width: 100%;*/
-  /*display: block;*/
+  width: 100%;
+  display: block;
 }
 
 #logo img {
@@ -25,6 +25,17 @@
   text-align: center;
   margin-top: 10px;
   font-family: "Roboto", sans-serif;
+}
+
+/*.main-nav {
+  display: flex;
+  margin: 20px;
+  text-align: center;
+}*/
+
+li {
+  margin-left: 10px;
+  margin-left: 10px;
 }
 
 nav ul {
@@ -63,7 +74,7 @@ nav a {
 
 @media (min-width: 768px) {
   nav ul {
-    display: initial;
+    display: flex;
   }
   nav a {
     display: initial;
@@ -82,6 +93,9 @@ nav a {
     justify-content: space-around;
     width: 100%;
   }
+  #menu-button {
+    display: none;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -93,5 +107,8 @@ nav a {
     text-align: right;
     z-index: 3;
     position: absolute;
+  }
+  #menu-button {
+    display: none;
   }
 }
