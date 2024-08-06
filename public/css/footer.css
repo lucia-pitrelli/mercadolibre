@@ -11,9 +11,11 @@ footer {
   font-size: 2em;
 }
 
-#copyright {
+#copyright p{
   text-align: left;
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 10px;
 }
 
 @media (min-width: 768px) {

@@ -2,7 +2,7 @@
   height: auto;
   font-size: 14px;
   margin: auto;
-  box-shadow: 0 9px 50px #fba90a;
+  box-shadow: 0 1px 10px #fba90a;
   padding: 5%;
   position: relative;
   padding-top: 40px;
@@ -33,9 +33,6 @@ h2 {
   margin-right: 75px;
 }
 
-.register-text {
-  text-align: center;
-}
 
 .form-item,
 .log-item {
@@ -71,14 +68,10 @@ h2 {
   display: inline;
 }
 
-.forget-pass {
-  text-align: center;
-  padding: 18px;
-  font-family: "Roboto", sans-serif;
-}
-
-.forget-pass a {
+.register-text a {
   color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
 }
 
 .error-box {
