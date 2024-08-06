@@ -1,13 +1,14 @@
 #page-header {
   background-color: #eac926;
-  padding: 16px;
+  padding: 8px;
   width: 100%;
   display: block;
 }
 
 #logo img {
-  width: 100%;
-  padding: 10px;
+  width: 70%;
+  padding-top:  10px;
+  padding-left: 10px;
 }
 
 #page-header #top-header {
@@ -19,12 +20,23 @@
 #page-header #top-header .search-form {
   flex-grow: 1;
 }
+/*
+.search-form .search-box{
+  width: 80%;
+}*/
+
+.search-box input{
+font-size: 9px;
+padding: 3px;
+width: 75%;
+}
 
 #page-header #top-header p {
   width: 100%;
   text-align: center;
   margin-top: 10px;
   font-family: "Roboto", sans-serif;
+  padding: 10px;
 }
 
 .div-header {
@@ -69,6 +81,8 @@ nav a {
   display: block;
   padding: 0px;
   margin-bottom: 10px;
+  height: 17vh;
+    object-fit: cover;
 }
 
 @media (min-width: 768px) {
