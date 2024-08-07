@@ -55,6 +55,10 @@ article {
   justify-content: space-evenly;
 }
 
+.product-background{
+  transition: all .5s;;
+}
+
 .product .descuento {
   width: 100%;
   padding-top: 5px;
@@ -77,10 +81,20 @@ article {
   position: absolute;
   right: 20px;
   top: -15px;
+  transition: all 2s;
 }
 
 .description {
   display: none;
+}
+
+/*animation*/
+.product-background:hover {
+  transform: scale(1.09);
+}
+
+.truck-icon:hover{
+transform: rotate(360deg);
 }
 
 /*estilos*/

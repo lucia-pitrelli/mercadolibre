@@ -89,42 +89,71 @@ nav a {
   nav ul {
     display: flex;
   }
+
   nav a {
     display: initial;
   }
+
   #logo img {
     width: 70%;
   }
+
   #page-header #top-header p {
-    width: 99%;
+    width: 95%;
     text-align: right;
     z-index: 3;
     position: absolute;
+    margin-bottom: 10px
   }
+
   #page-header #barra {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    padding-top: 15px
   }
+
   #menu-button {
     display: none;
   }
+
   #top-header {
     width: 70%;
+  }
+
+  .img-banner{
+    height: 22vh;
+  }
+
+  h3{
+    padding: 38px
   }
 }
 
 @media (min-width: 1200px) {
   #logo img {
-    width: 100%;
+    width: 80%;
   }
+
   #page-header #top-header p {
-    width: 70%;
-    text-align: right;
-    z-index: 3;
-    position: absolute;
+     width: 90%;
+     text-align: right;
+     z-index: 3;
+     position: absolute;
+     font-size: 14px;
   }
+
   #menu-button {
     display: none;
+  }
+
+  .div-header{
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .img-banner{
+        height: 36vh;
+        padding-bottom: 30px;
   }
 }
