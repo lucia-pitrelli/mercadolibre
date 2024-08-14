@@ -9,25 +9,18 @@
   margin-bottom: 60px;
 }
 
-p {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  color: black;
-  padding: 10px;
-}
-
 h2 {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   color: black;
   text-align: center;
   padding: 10px;
-  margin-top: 40px;
+
 }
 
-label.form-label {
+/*label.form-label {
   padding: 60px;
-}
+}*/
 
 .form-input {
   text-align: left;
@@ -39,48 +32,14 @@ label.form-label {
   margin-right: 10px;
 }
 
-.usuario {
-  padding: 20px;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  color: black;
-}
 
-label.perfil {
-  margin: 20px;
-  margin-top: 20px;
-  font-family: "Roboto", sans-serif;
-}
 
-select#perfil {
-  border-bottom: #fba90a;
-  background-color: #ebebeb;
-}
-
-.interes {
+/*.form-label {
   font-family: "Roboto", sans-serif;
   color: black;
   font-size: 14px;
   line-height: 40px;
-  text-align: center;
-  padding: 10px;
-}
-
-.interes li {
-  list-style-type: none;
-}
-
-.interes p {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-}
-
-.form-label {
-  font-family: "Roboto", sans-serif;
-  color: black;
-  font-size: 14px;
-  line-height: 40px;
-}
+}*/
 
 .borrar button {
   color: black;

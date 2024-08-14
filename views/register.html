@@ -73,83 +73,46 @@
       </div>
     </header>
     <main>
+
+      <form action="/" method="GET" class="form-menu">
       <section>
         <h2>Creá tu cuenta</h2>
         <p class="register-text">¿Ya tenés un cuenta?</p>
         <p class="register-text"><a href="/logIn" class="log">ingresá</a></p>
-        <div>
      </section>
-      <form action="/" method="GET" class="form-menu">
-          <label class="form-label" for="name">Nombre y Apellido</label>
-          <input type="text" required class="form-input"/>
-        </div>
-        <div>
-          <label for="name" class="form-label">Nombre de Usuario</label>
-          <input type="text" required class="form-input" />
-        </div>
-        <div>
-          <label for="name" class="form-label">Fecha de nacimiento</label>
-          <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
-        </div>
-        <div>
-          <label for="name" class="form-label">Domicilio</label>
-          <input type="text" required class="form-input" />
-        </div>
-        <div>
-          <label for="email" class="form-label">E-mail</label>
+     <div>
+          
+          <input type="text" placeholder="Nombre" class="form-input"/>
+     
+          <input type="text" placeholder="Apellido" required class="form-input" />
+        
           <input
             type="email"
             name="email"
+            placeholder="E-mail"
             id="email"
             required
             class="form-input"
           />
-        </div>
-        <div class="usuario">
-          <label class="perfil">Perfil del usuario</label>
-          <select name= "perfil" id="perfil">
-          <option value="compra">Compra</option>
-          <option value="venta">Venta</option>
-          </select>
-        </div> 
-        <div class="interes">
-        <p>¿Cuales de estas categorías son de tu interes?</p>
-        <ul>      
-        <li>
-          <input type="checkbox" name="electro" value="Electro">
-          <label for="Electro">Electro</label>
-        </li>
-        <li>
-          <input type="checkbox" name="moda" value=" Moda">
-          <label for="Moda">Moda</label>
-        </li>
-        <li>
-          <input type="checkbox" name="hogar" value=" Hogar">
-          <label for="Hogar">Hogar</label>
-        </li>
-        </ul>
-      </div>
-        <div>
-          <label for="password" class="form-label">Contraseña</label>
+      
           <input
             type="password"
             name="password"
+            placeholder="Contraseña"
             id="password"
             required
             class="form-input"
           />
-        </div>
-        <div>
-          <label for="repeat password" class="form-label"
-            >Confirmar contraseña</label
-          >
+
           <input
             type="password"
             name="repeat-password"
+            placeholder="Confirmar contraseña"
             id="repeat-password"
             class="form-input"
           />
         </div>
+
         <div class="borrar">
            <button type="submit" class="search-btn register-btn">
             Borrar datos
@@ -162,6 +125,7 @@
         <p class="register-text"><a href="/">Volvé a la página principal</a></p>
       </form>
     </main>
+    
   <footer>
     <section class="footer-main">
       <article class="article-footer">
