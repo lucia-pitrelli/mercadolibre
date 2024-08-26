@@ -1,137 +1,109 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bienvenidxs a MercadoLiebre</title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bienvenidxs a MercadoLiebre</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
-    />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="/css/header.css" />
-    <link rel="stylesheet" href="/css/register.css" />
-    <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/css/footer.css" />
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
 
-  <body>
-    <header id="page-header">
-      <div id="top-header">
-        <div class="div-header">
-      <div id="logo">
-        <a href="/">
-      <img
-          src="/img/logo-mercado-liebre.svg"
-          alt="logo de mercadoliebre"
-        /></a>
-      </div>
-      <div class="search-form">
-        <div class="search-box">
-        <input type="text" placeholder="Buscar productos" />
-        <button><i class="fas fa-search"></i></button>
-      </div>
-      </div>
+  <link rel="stylesheet" href="/css/header.css" />
+  <link rel="stylesheet" href="/css/register.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/footer.css" />
+</head>
+
+<body>
+  <header id="page-header">
+    <div id="top-header">
+      <div class="div-header">
+        <div id="logo">
+          <a href="/">
+            <img src="/img/logo-mercado-liebre.svg" alt="logo de mercadoliebre" /></a>
         </div>
+        <div class="search-form">
+          <div class="search-box">
+            <input type="text" placeholder="Buscar productos" />
+            <button><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+      </div>
       <p>
         <i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de
         crédito
       </p>
-      </div>
-      <nav id="barra">
-        <ul class="nav">
-          <li><a href="#">Ofertas</a></li>
-          <li><a href="#">Tiendas Oficiales</a></li>
-          <li><a href="#">Vender</a></li>
-          <li><a href="#">Ayudar</a></li>
-        </ul>
-        <ul class="nav">
-          <li>
-            <a href="/register"
-              >Crea tu cuenta <i class="far fa-address-card"></i>
-            </a>
-          </li>
-          <li>
-            <a href="/logIn">Ingresá <i class="fas fa-sign-in-alt"></i> </a>
-          </li>
-          <li>
-            <a href="#">Mis compras <i class="fas fa-shopping-basket"></i> </a>
-          </li>
-        </ul>
-      </nav>
-      <div id="menu">
-        <button id="menu-button">
-          <i class="fas fa-bars burger"></i>
-        </button>
-      </div>
-    </header>
-    <main>
+    </div>
+    <nav id="barra">
+      <ul class="nav">
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Tiendas Oficiales</a></li>
+        <li><a href="#">Vender</a></li>
+        <li><a href="#">Ayudar</a></li>
+      </ul>
+      <ul class="nav">
+        <li>
+          <a href="/register">Crea tu cuenta <i class="far fa-address-card"></i>
+          </a>
+        </li>
+        <li>
+          <a href="/logIn">Ingresá <i class="fas fa-sign-in-alt"></i> </a>
+        </li>
+        <li>
+          <a href="#">Mis compras <i class="fas fa-shopping-basket"></i> </a>
+        </li>
+      </ul>
+    </nav>
+    <div id="menu">
+      <button id="menu-button">
+        <i class="fas fa-bars burger"></i>
+      </button>
+    </div>
+  </header>
+  <main>
 
-      <form action="/" method="GET" class="form-menu">
+    <form action="/" method="GET" class="form-menu">
       <section>
         <h2>Creá tu cuenta</h2>
         <p class="register-text">¿Ya tenés un cuenta?</p>
         <p class="register-text"><a href="/logIn" class="log">ingresá</a></p>
-     </section>
-     <div>
-          
-          <input type="text" placeholder="Nombre" class="form-input"/>
-     
-          <input type="text" placeholder="Apellido" required class="form-input" />
-        
-          <input
-            type="email"
-            name="email"
-            placeholder="E-mail"
-            id="email"
-            required
-            class="form-input"
-          />
-      
-          <input
-            type="password"
-            name="password"
-            placeholder="Contraseña"
-            id="password"
-            required
-            class="form-input"
-          />
+      </section>
+      <div>
 
-          <input
-            type="password"
-            name="repeat-password"
-            placeholder="Confirmar contraseña"
-            id="repeat-password"
-            class="form-input"
-          />
-        </div>
+        <input type="text" placeholder="Nombre" class="form-input" />
 
-        <div class="borrar">
-           <button type="submit" class="search-btn register-btn">
-            Borrar datos
-          </button>
-                  <button type="submit" class="search-btn register-btn">
-            Confirmar datos
-          </button>
-        </div>
+        <input type="text" placeholder="Apellido" required class="form-input" />
+
+        <input type="email" name="email" placeholder="E-mail" id="email" required class="form-input" />
+
+        <input type="password" name="password" placeholder="Contraseña" id="password" required class="form-input" />
+
+        <input type="password" name="repeat-password" placeholder="Confirmar contraseña" id="repeat-password"
+          class="form-input" />
       </div>
-        <p class="register-text"><a href="/">Volvé a la página principal</a></p>
-      </form>
-    </main>
-    
+
+      <div class="borrar">
+        <button type="submit" class="search-btn register-btn">
+          Borrar datos
+        </button>
+        <button type="submit" class="search-btn register-btn">
+          Confirmar datos
+        </button>
+      </div>
+      </div>
+      <p class="register-text"><a href="/">Volvé a la página principal</a></p>
+    </form>
+  </main>
+
   <footer>
     <section class="footer-main">
       <article class="article-footer">
         <div class="icon-footer">
           <i class="fas fa-credit-card"></i>
-        </div> 
+        </div>
         <h3>Pagá con tarjeta o en efectivo</h3>
         <p>
           Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
@@ -140,7 +112,7 @@
       </article>
       <article class="article-footer">
         <div class="icon-footer">
-        <i class="fas fa-gift"></i>
+          <i class="fas fa-gift"></i>
         </div>
         <h3>Envío gratis desde $ 2.500</h3>
         <p>
@@ -150,7 +122,7 @@
       </article>
       <article class="article-footer">
         <div class="icon-footer">
-        <i class="fas fa-user-shield"></i>
+          <i class="fas fa-user-shield"></i>
         </div>
         <h3>Seguridad, de principio a fin</h3>
         <p>
@@ -166,5 +138,6 @@
       </div>
     </section>
   </footer>
-  </body>
+</body>
+
 </html>

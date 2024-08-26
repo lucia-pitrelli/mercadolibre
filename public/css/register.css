@@ -1,12 +1,13 @@
 .form-menu {
   height: auto;
   margin: auto;
-  box-shadow: 0 3px 10px #fba90a;
+  box-shadow: 0 3px 10px #afaaa0;
   padding: 2%;
   position: relative;
   padding-top: 60px;
   margin-top: 60px;
   margin-bottom: 60px;
+    background: rgb(209 209 209);
 }
 
 h2 {
@@ -18,34 +19,24 @@ h2 {
 
 }
 
-/*label.form-label {
-  padding: 60px;
-}*/
-
 .form-input {
   text-align: left;
-  padding: 4px;
-  border: #fba90a 2px solid;
+  padding: 8px;
+  border: #afaaa0 2px solid;
   display: block;
   width: 90%;
-  margin-left: 10px;
+  margin-left: 16px;
   margin-right: 10px;
+  border-radius: -2%;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
-
-
-
-/*.form-label {
-  font-family: "Roboto", sans-serif;
-  color: black;
-  font-size: 14px;
-  line-height: 40px;
-}*/
 
 .borrar button {
   color: black;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  border: #fba90a 1px solid;
+  border: #afaaa0 1px solid;
   padding: 8px;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -56,7 +47,7 @@ h2 {
 @media (min-width: 768px) {
   .form-input {
     width: 80%;
-    margin-left: 50px;
+    margin-left: 60px;
     margin-right: 50px;
   }
 }
@@ -64,7 +55,7 @@ h2 {
 @media (min-width: 1200px) {
   .form-input {
     width: 80%;
-    margin-left: 90px;
+    margin-left: 70px;
     margin-right: 50px;
   }
 
